@@ -3,7 +3,7 @@
     "name": "LoL Esports Idler",
     "version": "0.0.1",
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "popup/popup.html"
     },
     "permissions": [
         "activeTab",
