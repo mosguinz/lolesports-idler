@@ -143,7 +143,12 @@ export interface RewardStatus {
     watchType: string;
     children: any[];
 
-    /** Do not use this value to check if drops are working. */
+
+    /**
+     * **Do not use this value to check if drops are working.**
+     * This value indicates if the rewards popup was clicked on (the
+     * checkmark below the stream).
+     */
     showStatus: boolean;
     rewards: string;
     mission: string;
@@ -154,7 +159,8 @@ export interface RewardStatus {
      * drops include:
      *
      *  - `off_region_not_configured`: if the region does not offer drop or
-     *  if the broadcast is between games
+     *  if the broadcast is between games.
+     *  - `off_vod_stream`: this is a VOD and is not eligible for drops.
      *  - `unknown`: if the user is not logged in.
      *
      * In most cases, a page refresh is only really warranted if this key
