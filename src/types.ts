@@ -174,7 +174,7 @@ export interface AppConfig {
     enabled: boolean
     preferTwitch: boolean
     muteTabs: boolean
-    autoCloseTab: boolean
+    autoCloseTabs: boolean
 }
 
 export interface AppSession {
