@@ -169,3 +169,15 @@ export interface RewardStatus {
     drop?: string;
     heartbeater: HeartBeater;
 }
+
+export interface AppConfig {
+    enabled: boolean
+    preferTwitch: boolean
+    muteTabs: boolean
+    autoCloseTab: boolean
+}
+
+export interface AppSession {
+    scheduleTab: any
+    openedTabs: any[]
+}
