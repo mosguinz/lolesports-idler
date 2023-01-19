@@ -1,0 +1,3808 @@
+{
+    "pages": {
+        "older": "b2xkZXI6OjEwOTY2OTYwMDUzMDA4Mjk4Mw==",
+        "newer": "bmV3ZXI6OjEwOTYyNTE1Mjg5NzY2MTA0Mg=="
+    },
+    "events": [
+        {
+            "startTime": "2023-01-15T09:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600530082983",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Royal Never Give Up",
+                        "code": "RNG",
+                        "image": "http://static.lolesports.com/teams/1631819360134_rng-2021-worlds.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Oh My God",
+                        "code": "OMG",
+                        "image": "http://static.lolesports.com/teams/1652821189001_f7745369.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-15T11:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600530214183",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Ultra Prime",
+                        "code": "UP",
+                        "image": "http://static.lolesports.com/teams/ultraprime.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Ninjas in Pyjamas.CN",
+                        "code": "NIP",
+                        "image": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-15T22:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Golden League",
+                "slug": "movistar_fiber_golden_league"
+            },
+            "match": {
+                "id": "109672646550650485",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Fuego",
+                        "code": "FUE",
+                        "image": "http://static.lolesports.com/teams/1642594085876_FUEGO-ColorLight.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Ramo Awake Gaming",
+                        "code": "AWK",
+                        "image": "http://static.lolesports.com/teams/1642445663945_AWAKE-ColorDark.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T00:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Elements League",
+                "slug": "elements_league"
+            },
+            "match": {
+                "id": "109660182594334208",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Vandals Esports",
+                        "code": "VAN",
+                        "image": "http://static.lolesports.com/teams/1642594369878_VANDALS-ColorLight.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "Mezexis Esports",
+                        "code": "MZS",
+                        "image": "http://static.lolesports.com/teams/1672845616890_LOLESPORTSICON.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T00:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Golden League",
+                "slug": "movistar_fiber_golden_league"
+            },
+            "match": {
+                "id": "109672646550650505",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Team Mayan eSports",
+                        "code": "MYN",
+                        "image": "http://static.lolesports.com/teams/1642445971179_MAYAN-C.png",
+                        "result": {
+                            "outcome": "tie",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Aethernum Esports",
+                        "code": "AET",
+                        "image": "http://static.lolesports.com/teams/1673471338495_AETHERNUM-B.png",
+                        "result": {
+                            "outcome": "tie",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T01:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Elements League",
+                "slug": "elements_league"
+            },
+            "match": {
+                "id": "109660182594334202",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Saprissa Esports",
+                        "code": "SAP",
+                        "image": "http://static.lolesports.com/teams/1642594331651_SAPRISA-ColorLight.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "War Legion Esports",
+                        "code": "WLE",
+                        "image": "http://static.lolesports.com/teams/1672845674338_LOLESPORTSICON.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T02:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Elements League",
+                "slug": "elements_league"
+            },
+            "match": {
+                "id": "109660182594334188",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Bandits",
+                        "code": "BAN",
+                        "image": "http://static.lolesports.com/teams/1642594034709_BANDITS-White.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Janus Esports",
+                        "code": "JNS",
+                        "image": "http://static.lolesports.com/teams/1642594265983_JANUS-ColorLight.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T05:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970553",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "NONGSHIM ESPORTS ACADEMY",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "DRX Challengers",
+                        "code": "DRX",
+                        "image": "http://static.lolesports.com/teams/1672910744570_01.Basic_W.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T08:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970587",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "HLE Challengers",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/hle-2021-color-on-dark.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Gen.G Global Academy",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1672911977540_GGA_2023ver_LOGO_GGA_simplyA_W1.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T09:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 2",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600529951663",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Team WE",
+                        "code": "WE",
+                        "image": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Edward Gaming Hycan",
+                        "code": "EDG",
+                        "image": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T11:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970557",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "BRO Challengers",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1672911291547_BRIONlogo_profile1.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "DK Challengers",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673259409468_DPlusKIALOGO1.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T11:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 2",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600529820483",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Top Esports",
+                        "code": "TES",
+                        "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Anyone's Legend",
+                        "code": "AL",
+                        "image": "http://static.lolesports.com/teams/1641199582689_.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T16:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683380",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Goskilla",
+                        "code": "GSK",
+                        "image": "http://static.lolesports.com/teams/1671448192430_lzVmumu.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Illuminar Gaming",
+                        "code": "IHG",
+                        "image": "http://static.lolesports.com/teams/1671447356949_Qaj7cc8.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T17:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683356",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Topo Centras Iron Wolves",
+                        "code": "WOLF",
+                        "image": "http://static.lolesports.com/teams/1639395005517_iron_wolves_white.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Zero Tenacity",
+                        "code": "Z10",
+                        "image": "http://static.lolesports.com/teams/1671446120643_JafqYYq.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T17:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407753207",
+                "flags": [
+                    "hasVod"
+                ],
+                "teams": [
+                    {
+                        "name": "Bisons Eclub",
+                        "code": "BSO",
+                        "image": "http://static.lolesports.com/teams/1639829017451_618bec7c49c31172742131.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Barça Esports",
+                        "code": "BAR",
+                        "image": "http://static.lolesports.com/teams/1639828813946_61b778236a9c9995719028.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T18:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683366",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Komil&Friends",
+                        "code": "KNF",
+                        "image": "http://static.lolesports.com/teams/1671449320276_LjgDGg2.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "Team ESCA Gaming",
+                        "code": "ESCA",
+                        "image": "http://static.lolesports.com/teams/1671446791990_7GZyEuO.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T18:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687599",
+                "flags": [
+                    "hasVod"
+                ],
+                "teams": [
+                    {
+                        "name": "Movistar Riders",
+                        "code": "MRS",
+                        "image": "http://static.lolesports.com/teams/1585046777741_220px-Movistar_Riderslogo_square.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "FnaticTQ",
+                        "code": "FNTQ",
+                        "image": "http://static.lolesports.com/teams/1639828406200_61bcc19126090227265597.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T19:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193355632",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "EXEED",
+                        "code": "EXD",
+                        "image": "http://static.lolesports.com/teams/1671445824041_8gXMrAS.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "Alior Bank Team",
+                        "code": "AB",
+                        "image": "http://static.lolesports.com/teams/1672414472041_TtChFUe.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T19:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407753219",
+                "flags": [
+                    "hasVod"
+                ],
+                "teams": [
+                    {
+                        "name": "Guasones",
+                        "code": "GSNS",
+                        "image": "http://static.lolesports.com/teams/1671467182307_618bed2d11258254209974.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "Rebels Gaming",
+                        "code": "RBLS",
+                        "image": "http://static.lolesports.com/teams/1671467127897_61b86da4283b5904699323.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T20:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683382",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Grypciocraft Esports",
+                        "code": "GRP",
+                        "image": "http://static.lolesports.com/teams/1671448791753_DqtYZgB.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Maturalni Forsaken",
+                        "code": "MFSK",
+                        "image": "http://static.lolesports.com/teams/1639390964335_Forsaken-MascotLogoPNG.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T20:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687619",
+                "flags": [
+                    "hasVod"
+                ],
+                "teams": [
+                    {
+                        "name": "Team Heretics",
+                        "code": "HRTS",
+                        "image": "http://static.lolesports.com/teams/1661502137823_LOGOHERETICSPNG.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Giants",
+                        "code": "GIA",
+                        "image": "http://static.lolesports.com/teams/1641412992057_escudowhite.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-16T21:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687649",
+                "flags": [
+                    "hasVod"
+                ],
+                "teams": [
+                    {
+                        "name": "Finetwork KOI",
+                        "code": "FNK",
+                        "image": "http://static.lolesports.com/teams/1639828904190_61b740d5e05ac236934201.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "UCAM Esports Club",
+                        "code": "UCAM",
+                        "image": "http://static.lolesports.com/teams/SL_UCAM-Logo.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T00:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Golden League",
+                "slug": "movistar_fiber_golden_league"
+            },
+            "match": {
+                "id": "109672646550650527",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Spirituals",
+                        "code": "STS",
+                        "image": "http://static.lolesports.com/teams/1642445935210_SPIRITUALS-C.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Polar Squad",
+                        "code": "PLS",
+                        "image": "http://static.lolesports.com/teams/1673471548789_POLAR-B.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T02:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Golden League",
+                "slug": "movistar_fiber_golden_league"
+            },
+            "match": {
+                "id": "109672646550650525",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "OSAKA",
+                        "code": "OSK",
+                        "image": "http://static.lolesports.com/teams/1652820707039_OSAKA-C.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Zeus Kralik",
+                        "code": "Z5K",
+                        "image": "http://static.lolesports.com/teams/1673471483557_ZEU5-K-B.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T08:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970609",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "KDF Challengers",
+                        "code": "KDF",
+                        "image": "http://static.lolesports.com/teams/1641185970490_KDF_KR_logo.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "kt Challengers",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T09:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 2",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600530082959",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Thunder Talk Gaming",
+                        "code": "TT",
+                        "image": "http://static.lolesports.com/teams/TT-FullonDark.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "LNG Esports",
+                        "code": "LNG",
+                        "image": "http://static.lolesports.com/teams/1631819402484_lng-2021-worlds.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T11:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970625",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "T1 Challengers",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/T1-FullonDark.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Liiv SANDBOX Youth",
+                        "code": "LSB",
+                        "image": "http://static.lolesports.com/teams/liiv-sandbox-new.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T11:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 2",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600530017295",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Invictus Gaming",
+                        "code": "IG",
+                        "image": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 2
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Royal Never Give Up",
+                        "code": "RNG",
+                        "image": "http://static.lolesports.com/teams/1631819360134_rng-2021-worlds.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T16:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193421172",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Team ESCA Gaming",
+                        "code": "ESCA",
+                        "image": "http://static.lolesports.com/teams/1671446791990_7GZyEuO.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Alior Bank Team",
+                        "code": "AB",
+                        "image": "http://static.lolesports.com/teams/1672414472041_TtChFUe.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T17:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193748932",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Topo Centras Iron Wolves",
+                        "code": "WOLF",
+                        "image": "http://static.lolesports.com/teams/1639395005517_iron_wolves_white.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Komil&Friends",
+                        "code": "KNF",
+                        "image": "http://static.lolesports.com/teams/1671449320276_LjgDGg2.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T17:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687655",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Guasones",
+                        "code": "GSNS",
+                        "image": "http://static.lolesports.com/teams/1671467182307_618bed2d11258254209974.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "UCAM Esports Club",
+                        "code": "UCAM",
+                        "image": "http://static.lolesports.com/teams/SL_UCAM-Logo.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T18:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683372",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Maturalni Forsaken",
+                        "code": "MFSK",
+                        "image": "http://static.lolesports.com/teams/1639390964335_Forsaken-MascotLogoPNG.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Illuminar Gaming",
+                        "code": "IHG",
+                        "image": "http://static.lolesports.com/teams/1671447356949_Qaj7cc8.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T18:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407753197",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Rebels Gaming",
+                        "code": "RBLS",
+                        "image": "http://static.lolesports.com/teams/1671467127897_61b86da4283b5904699323.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Team Heretics",
+                        "code": "HRTS",
+                        "image": "http://static.lolesports.com/teams/1661502137823_LOGOHERETICSPNG.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T19:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683358",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Goskilla",
+                        "code": "GSK",
+                        "image": "http://static.lolesports.com/teams/1671448192430_lzVmumu.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Zero Tenacity",
+                        "code": "Z10",
+                        "image": "http://static.lolesports.com/teams/1671446120643_JafqYYq.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T19:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687641",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Bisons Eclub",
+                        "code": "BSO",
+                        "image": "http://static.lolesports.com/teams/1639829017451_618bec7c49c31172742131.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Movistar Riders",
+                        "code": "MRS",
+                        "image": "http://static.lolesports.com/teams/1585046777741_220px-Movistar_Riderslogo_square.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T20:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193617802",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Grypciocraft Esports",
+                        "code": "GRP",
+                        "image": "http://static.lolesports.com/teams/1671448791753_DqtYZgB.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "EXEED",
+                        "code": "EXD",
+                        "image": "http://static.lolesports.com/teams/1671445824041_8gXMrAS.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T20:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407753203",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Finetwork KOI",
+                        "code": "FNK",
+                        "image": "http://static.lolesports.com/teams/1639828904190_61b740d5e05ac236934201.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "Barça Esports",
+                        "code": "BAR",
+                        "image": "http://static.lolesports.com/teams/1639828813946_61b778236a9c9995719028.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-17T21:00:00Z",
+            "state": "completed",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687597",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Giants",
+                        "code": "GIA",
+                        "image": "http://static.lolesports.com/teams/1641412992057_escudowhite.png",
+                        "result": {
+                            "outcome": "loss",
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "FnaticTQ",
+                        "code": "FNTQ",
+                        "image": "http://static.lolesports.com/teams/1639828406200_61bcc19126090227265597.png",
+                        "result": {
+                            "outcome": "win",
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "id": "109625152897529818",
+            "startTime": "2023-01-18T08:00:00Z",
+            "state": "inProgress",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "id": "98767991310872058",
+                "slug": "lck",
+                "name": "LCK",
+                "image": "http://static.lolesports.com/leagues/lck-color-on-black.png",
+                "priority": 4,
+                "displayPriority": {
+                    "position": 1,
+                    "status": "not_selected"
+                }
+            },
+            "tournament": {
+                "id": "109625152894842837"
+            },
+            "match": {
+                "id": "109625152897529818",
+                "teams": [
+                    {
+                        "id": "100725845018863243",
+                        "name": "Dplus Kia",
+                        "slug": "dwg-kia",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 1
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "id": "99566404585387054",
+                        "name": "DRX",
+                        "slug": "drx",
+                        "code": "DRX",
+                        "image": "http://static.lolesports.com/teams/1672910733664_01.Basic_W.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                },
+                "games": [
+                    {
+                        "number": 1,
+                        "id": "109625152897529819",
+                        "state": "completed",
+                        "teams": [
+                            {
+                                "id": "100725845018863243",
+                                "side": "blue"
+                            },
+                            {
+                                "id": "99566404585387054",
+                                "side": "red"
+                            }
+                        ],
+                        "vods": []
+                    },
+                    {
+                        "number": 2,
+                        "id": "109625152897529820",
+                        "state": "inProgress",
+                        "teams": [
+                            {
+                                "id": "99566404585387054",
+                                "side": "blue"
+                            },
+                            {
+                                "id": "100725845018863243",
+                                "side": "red"
+                            }
+                        ],
+                        "vods": []
+                    },
+                    {
+                        "number": 3,
+                        "id": "109625152897529821",
+                        "state": "unstarted",
+                        "teams": [
+                            {
+                                "id": "100725845018863243",
+                                "side": "blue"
+                            },
+                            {
+                                "id": "99566404585387054",
+                                "side": "red"
+                            }
+                        ],
+                        "vods": []
+                    }
+                ]
+            },
+            "streams": [
+                {
+                    "parameter": "lck",
+                    "locale": "en-US",
+                    "mediaLocale": {
+                        "locale": "en-US",
+                        "englishName": "English (North America)",
+                        "translatedName": "English (North America)"
+                    },
+                    "provider": "twitch",
+                    "countries": [],
+                    "offset": -54000,
+                    "statsStatus": "enabled"
+                },
+                {
+                    "parameter": "aflol",
+                    "locale": "ko-KR",
+                    "mediaLocale": {
+                        "locale": "ko-KR",
+                        "englishName": "Korean (Korea)",
+                        "translatedName": "한국어"
+                    },
+                    "provider": "afreecatv",
+                    "countries": [],
+                    "offset": 0,
+                    "statsStatus": "disabled"
+                },
+                {
+                    "parameter": "otplol_",
+                    "locale": "fr-FR",
+                    "mediaLocale": {
+                        "locale": "fr-FR",
+                        "englishName": "French (France)",
+                        "translatedName": "Français"
+                    },
+                    "provider": "twitch",
+                    "countries": [
+                        "FR",
+                        "CA"
+                    ],
+                    "offset": -52000,
+                    "statsStatus": "enabled"
+                }
+            ]
+        },
+        {
+            "id": "109669721119208258",
+            "startTime": "2023-01-18T08:06:28.908Z",
+            "state": "inProgress",
+            "type": "show",
+            "league": {
+                "id": "98767991314006698",
+                "slug": "lpl",
+                "name": "LPL",
+                "image": "http://static.lolesports.com/leagues/1592516115322_LPL-01-FullonDark.png",
+                "priority": 201,
+                "displayPriority": {
+                    "position": 7,
+                    "status": "not_selected"
+                }
+            },
+            "tournament": {
+                "id": "109669600527985422"
+            },
+            "streams": [
+                {
+                    "parameter": "lpl",
+                    "locale": "en-US",
+                    "mediaLocale": {
+                        "locale": "en-US",
+                        "englishName": "English (North America)",
+                        "translatedName": "English (North America)"
+                    },
+                    "provider": "twitch",
+                    "countries": [],
+                    "offset": 0,
+                    "statsStatus": "disabled"
+                },
+                {
+                    "parameter": "GcflQtmH_8s",
+                    "locale": "en-US",
+                    "mediaLocale": {
+                        "locale": "en-US",
+                        "englishName": "English (North America)",
+                        "translatedName": "English (North America)"
+                    },
+                    "provider": "youtube",
+                    "countries": [],
+                    "offset": 0,
+                    "statsStatus": "disabled"
+                }
+            ]
+        },
+        {
+            "startTime": "2023-01-18T09:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 2",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600529886039",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "FunPlus Phoenix",
+                        "code": "FPX",
+                        "image": "http://static.lolesports.com/teams/1627457887494_7_720.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Bilibili Gaming",
+                        "code": "BLG",
+                        "image": "http://static.lolesports.com/teams/1641200475679_Bilibili_Gaminglogo_profile.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T10:30:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK",
+                "slug": "lck"
+            },
+            "match": {
+                "id": "109625152897661006",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1631819523085_t1-2021-worlds.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Gen.G",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1655210113163_GenG_logo_200407-05.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T11:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 2",
+            "league": {
+                "name": "LPL",
+                "slug": "lpl"
+            },
+            "match": {
+                "id": "109669600530214179",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Weibo Gaming",
+                        "code": "WBG",
+                        "image": "http://static.lolesports.com/teams/1641202879910_3.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Top Esports",
+                        "code": "TES",
+                        "image": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T16:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193748928",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Topo Centras Iron Wolves",
+                        "code": "WOLF",
+                        "image": "http://static.lolesports.com/teams/1639395005517_iron_wolves_white.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Grypciocraft Esports",
+                        "code": "GRP",
+                        "image": "http://static.lolesports.com/teams/1671448791753_DqtYZgB.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T17:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193748934",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Goskilla",
+                        "code": "GSK",
+                        "image": "http://static.lolesports.com/teams/1671448192430_lzVmumu.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Komil&Friends",
+                        "code": "KNF",
+                        "image": "http://static.lolesports.com/teams/1671449320276_LjgDGg2.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T17:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926917766",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "LDLC OL",
+                        "code": "LDLC",
+                        "image": "http://static.lolesports.com/teams/LFL-LDLC-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Team BDS Academy",
+                        "code": "BDSA",
+                        "image": "http://static.lolesports.com/teams/1641944663689_bdslogo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T18:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193683362",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Maturalni Forsaken",
+                        "code": "MFSK",
+                        "image": "http://static.lolesports.com/teams/1639390964335_Forsaken-MascotLogoPNG.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Team ESCA Gaming",
+                        "code": "ESCA",
+                        "image": "http://static.lolesports.com/teams/1671446791990_7GZyEuO.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T18:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926917800",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Solary",
+                        "code": "SLY",
+                        "image": "http://static.lolesports.com/teams/LFL-SLY-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "BK ROG Esports",
+                        "code": "BKR",
+                        "image": "http://static.lolesports.com/teams/1639569383743_GOxROG_Noir1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T19:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193421170",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Zero Tenacity",
+                        "code": "Z10",
+                        "image": "http://static.lolesports.com/teams/1671446120643_JafqYYq.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Alior Bank Team",
+                        "code": "AB",
+                        "image": "http://static.lolesports.com/teams/1672414472041_TtChFUe.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T19:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926917826",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Aegis",
+                        "code": "AEG",
+                        "image": "http://static.lolesports.com/teams/1671192826142_LOLESPORTSICON.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Vitality.Bee",
+                        "code": "VITB",
+                        "image": "http://static.lolesports.com/teams/Vitality-logo-color-outline-rgb.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T20:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Ultraliga",
+                "slug": "ultraliga"
+            },
+            "match": {
+                "id": "109539822193552262",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Illuminar Gaming",
+                        "code": "IHG",
+                        "image": "http://static.lolesports.com/teams/1671447356949_Qaj7cc8.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "EXEED",
+                        "code": "EXD",
+                        "image": "http://static.lolesports.com/teams/1671445824041_8gXMrAS.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T20:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926983390",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Team GO",
+                        "code": "GO",
+                        "image": "http://static.lolesports.com/teams/1653568422522_TEAMGO-MONOCHROMELIGHT.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Karmine Corp",
+                        "code": "KC",
+                        "image": "http://static.lolesports.com/teams/LFL-KC-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-18T21:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926983380",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "IZIDREAM",
+                        "code": "IZI",
+                        "image": "http://static.lolesports.com/teams/LFL-IZI-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "GameWard",
+                        "code": "GW",
+                        "image": "http://static.lolesports.com/teams/LFL-GW-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T05:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970543",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Gen.G Global Academy",
+                        "code": "GEN",
+                        "image": "http://static.lolesports.com/teams/1672911977540_GGA_2023ver_LOGO_GGA_simplyA_W1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "DRX Challengers",
+                        "code": "DRX",
+                        "image": "http://static.lolesports.com/teams/1672910744570_01.Basic_W.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T05:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970575",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "HLE Challengers",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/hle-2021-color-on-dark.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "BRO Challengers",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1672911291547_BRIONlogo_profile1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T05:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970569",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "NONGSHIM ESPORTS ACADEMY",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "DK Challengers",
+                        "code": "DK",
+                        "image": "http://static.lolesports.com/teams/1673259409468_DPlusKIALOGO1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T08:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK",
+                "slug": "lck"
+            },
+            "match": {
+                "id": "109625152897661014",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Kwangdong Freecs",
+                        "code": "KDF",
+                        "image": "http://static.lolesports.com/teams/1641186009897_KDF_KR_logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Hanwha Life Esports",
+                        "code": "HLE",
+                        "image": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T10:30:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK",
+                "slug": "lck"
+            },
+            "match": {
+                "id": "109625152897595442",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "NongShim REDFORCE",
+                        "code": "NS",
+                        "image": "http://static.lolesports.com/teams/NSFullonDark.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "BRION",
+                        "code": "BRO",
+                        "image": "http://static.lolesports.com/teams/1672911299140_BRIONlogo_profile1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T17:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687609",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Rebels Gaming",
+                        "code": "RBLS",
+                        "image": "http://static.lolesports.com/teams/1671467127897_61b86da4283b5904699323.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "FnaticTQ",
+                        "code": "FNTQ",
+                        "image": "http://static.lolesports.com/teams/1639828406200_61bcc19126090227265597.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T17:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926917802",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Vitality.Bee",
+                        "code": "VITB",
+                        "image": "http://static.lolesports.com/teams/Vitality-logo-color-outline-rgb.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "BK ROG Esports",
+                        "code": "BKR",
+                        "image": "http://static.lolesports.com/teams/1639569383743_GOxROG_Noir1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T17:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Prime League",
+                "slug": "primeleague"
+            },
+            "match": {
+                "id": "109539770335803972",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Unicorns of Love Sexy Edition",
+                        "code": "USE",
+                        "image": "http://static.lolesports.com/teams/PRM_USE-Logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "SK Gaming Prime",
+                        "code": "SKP",
+                        "image": "http://static.lolesports.com/teams/PRM_SKP-Logo_white.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T18:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407753209",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Guasones",
+                        "code": "GSNS",
+                        "image": "http://static.lolesports.com/teams/1671467182307_618bed2d11258254209974.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    },
+                    {
+                        "name": "Barça Esports",
+                        "code": "BAR",
+                        "image": "http://static.lolesports.com/teams/1639828813946_61b778236a9c9995719028.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T18:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926917794",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "IZIDREAM",
+                        "code": "IZI",
+                        "image": "http://static.lolesports.com/teams/LFL-IZI-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "LDLC OL",
+                        "code": "LDLC",
+                        "image": "http://static.lolesports.com/teams/LFL-LDLC-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T18:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Prime League",
+                "slug": "primeleague"
+            },
+            "match": {
+                "id": "109539770335738410",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Mousesports",
+                        "code": "MOUZ",
+                        "image": "http://static.lolesports.com/teams/1639486346996_PRM_MOUZ-FullColorDarkBG.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "E WIE EINFACH E-SPORTS",
+                        "code": "EWI",
+                        "image": "http://static.lolesports.com/teams/PRM_EWI-Logo_white.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T19:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687645",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Team Heretics",
+                        "code": "HRTS",
+                        "image": "http://static.lolesports.com/teams/1661502137823_LOGOHERETICSPNG.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "UCAM Esports Club",
+                        "code": "UCAM",
+                        "image": "http://static.lolesports.com/teams/SL_UCAM-Logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T19:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926983382",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Karmine Corp",
+                        "code": "KC",
+                        "image": "http://static.lolesports.com/teams/LFL-KC-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "GameWard",
+                        "code": "GW",
+                        "image": "http://static.lolesports.com/teams/LFL-GW-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T19:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Prime League",
+                "slug": "primeleague"
+            },
+            "match": {
+                "id": "109539770335738388",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Eintracht Spandau",
+                        "code": "EINS",
+                        "image": "http://static.lolesports.com/teams/1643374499169_EINSLogo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Eintracht Frankfurt",
+                        "code": "SGE",
+                        "image": "http://static.lolesports.com/teams/1639653859649_EintrachtFrankfurt.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T20:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407753213",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Bisons Eclub",
+                        "code": "BSO",
+                        "image": "http://static.lolesports.com/teams/1639829017451_618bec7c49c31172742131.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "Finetwork KOI",
+                        "code": "FNK",
+                        "image": "http://static.lolesports.com/teams/1639828904190_61b740d5e05ac236934201.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 2
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T20:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926983378",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Team GO",
+                        "code": "GO",
+                        "image": "http://static.lolesports.com/teams/1653568422522_TEAMGO-MONOCHROMELIGHT.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Aegis",
+                        "code": "AEG",
+                        "image": "http://static.lolesports.com/teams/1671192826142_LOLESPORTSICON.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T20:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Prime League",
+                "slug": "primeleague"
+            },
+            "match": {
+                "id": "109539770335672816",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Berlin International Gaming",
+                        "code": "BIG",
+                        "image": "http://static.lolesports.com/teams/BIG-Logo-2020-White1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "NNO Prime",
+                        "code": "NNO",
+                        "image": "http://static.lolesports.com/teams/1642145631357_NoNeedOrga.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T21:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "SuperLiga",
+                "slug": "superliga"
+            },
+            "match": {
+                "id": "109467087407687615",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Movistar Riders",
+                        "code": "MRS",
+                        "image": "http://static.lolesports.com/teams/1585046777741_220px-Movistar_Riderslogo_square.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 2,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Giants",
+                        "code": "GIA",
+                        "image": "http://static.lolesports.com/teams/1641412992057_escudowhite.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T21:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "La Ligue Française",
+                "slug": "lfl"
+            },
+            "match": {
+                "id": "109467129926917770",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Solary",
+                        "code": "SLY",
+                        "image": "http://static.lolesports.com/teams/LFL-SLY-logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Team BDS Academy",
+                        "code": "BDSA",
+                        "image": "http://static.lolesports.com/teams/1641944663689_bdslogo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-19T21:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Prime League",
+                "slug": "primeleague"
+            },
+            "match": {
+                "id": "109539770335803958",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Schalke 04 Esports",
+                        "code": "S04",
+                        "image": "http://static.lolesports.com/teams/S04_Standard_Logo1.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "GamerLegion",
+                        "code": "GL",
+                        "image": "http://static.lolesports.com/teams/1585046217463_220px-Team_GamerLegionlogo_square.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 1
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T00:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Volcano League",
+                "slug": "volcano_discover_league"
+            },
+            "match": {
+                "id": "109698048963566886",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Waia Snikt",
+                        "code": "WS",
+                        "image": "http://static.lolesports.com/teams/1643106805734_WAIA-ColorLight.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": " Descuydado Esports",
+                        "code": "DSC",
+                        "image": "http://static.lolesports.com/teams/1643106728423_DESCUYDADO-White.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T00:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Round 1",
+            "league": {
+                "name": "Stars League",
+                "slug": "claro_gaming_stars_league"
+            },
+            "match": {
+                "id": "109699002332890725",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Incubus",
+                        "code": "INC",
+                        "image": "http://static.lolesports.com/teams/1642595563820_INCUBUS-White.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Cremas Esports",
+                        "code": "CMES",
+                        "image": "http://static.lolesports.com/teams/1673871701049_CREMAS-ESPORTS-BLANCO-700X700.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T02:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "Volcano League",
+                "slug": "volcano_discover_league"
+            },
+            "match": {
+                "id": "109698048963566858",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "GeekSide Esports",
+                        "code": "GSE",
+                        "image": "http://static.lolesports.com/teams/1643106755632_GEEKSIDE-ESPORTS-ColorLight.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Aguilas Doradas",
+                        "code": "AD",
+                        "image": "http://static.lolesports.com/teams/1652826987911_AGUILAS-DORADAS-White.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T02:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Round 1",
+            "league": {
+                "name": "Stars League",
+                "slug": "claro_gaming_stars_league"
+            },
+            "match": {
+                "id": "109699002332825174",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Mad Kings",
+                        "code": "MDK",
+                        "image": "http://static.lolesports.com/teams/1673870201139_MAD-KINGS-B-700X700.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "Antares Esports",
+                        "code": "ANT",
+                        "image": "http://static.lolesports.com/teams/1655796379986_ANTARES-700X700.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "playAll",
+                    "count": 2
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T05:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970611",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "Liiv SANDBOX Youth",
+                        "code": "LSB",
+                        "image": "http://static.lolesports.com/teams/liiv-sandbox-new.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    },
+                    {
+                        "name": "kt Challengers",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T05:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK Challengers",
+                "slug": "lck_challengers_league"
+            },
+            "match": {
+                "id": "109625523804970621",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "T1 Challengers",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/T1-FullonDark.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 1,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "KDF Challengers",
+                        "code": "KDF",
+                        "image": "http://static.lolesports.com/teams/1641185970490_KDF_KR_logo.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 1
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        },
+        {
+            "startTime": "2023-01-20T08:00:00Z",
+            "state": "unstarted",
+            "type": "match",
+            "blockName": "Week 1",
+            "league": {
+                "name": "LCK",
+                "slug": "lck"
+            },
+            "match": {
+                "id": "109625152897661042",
+                "flags": [],
+                "teams": [
+                    {
+                        "name": "T1",
+                        "code": "T1",
+                        "image": "http://static.lolesports.com/teams/1631819523085_t1-2021-worlds.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    },
+                    {
+                        "name": "kt Rolster",
+                        "code": "KT",
+                        "image": "http://static.lolesports.com/teams/kt_darkbackground.png",
+                        "result": {
+                            "outcome": null,
+                            "gameWins": 0
+                        },
+                        "record": {
+                            "wins": 0,
+                            "losses": 0
+                        }
+                    }
+                ],
+                "strategy": {
+                    "type": "bestOf",
+                    "count": 3
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "lolesports-idler",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {
+        "@types/chrome": "^0.0.209",
+        "chrome-types": "^0.1.163",
+        "copy-webpack-plugin": "^11.0.0",
+        "ts-loader": "^9.4.2",
+        "typescript": "^4.9.4",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config webpack/webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mosguinz/lolesports-idler.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mosguinz/lolesports-idler/issues"
+    },
+    "homepage": "https://github.com/mosguinz/lolesports-idler#readme",
+    "description": ""
+}
