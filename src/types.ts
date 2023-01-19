@@ -127,3 +127,39 @@ export interface Pages {
     older: string;
     newer: string;
 }
+
+
+export type HeartBeater = "loggedout" | "heartbeating";
+
+/**
+ * This comes from two keys of the `div.RewardsStatusInformer`:
+ * `._component.props` and `._component.state`.
+ */
+export interface RewardStatus {
+
+    /** The game ID. Each game in the series has a different ID. */
+    gameId: string;
+    tournamentId: string;
+    watchType: string;
+    children: any[];
+
+    /** Do not use this value to check if drops are working. */
+    showStatus: boolean;
+    rewards: string;
+    mission: string;
+
+    /**
+     * Earning drops if and only if this key is present and has the value of
+     * `on`. Other values that may display a checkmark but aren't earning
+     * drops include:
+     *
+     *  - `off_region_not_configured`: if the region does not offer drop or
+     *  if the broadcast is between games
+     *  - `unknown`: if the user is not logged in.
+     *
+     * In most cases, a page refresh is only really warranted if this key
+     * is not present or has the value `unknown`.
+     */
+    drop?: string;
+    heartbeater: HeartBeater;
+}
