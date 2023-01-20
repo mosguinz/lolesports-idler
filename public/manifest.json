@@ -31,6 +31,9 @@
         "scripting",
         "storage"
     ],
+    "host_permissions": [
+        "*://lolesports.com/*"
+    ],
     "background": {
         "service_worker": "background.js"
     }
