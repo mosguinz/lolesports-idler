@@ -27,6 +27,16 @@ export async function setAppConfig(config: AppConfig) {
     await chrome.storage.local.set({ config: config });
 }
 
+export async function updateAppConfig(toUpdate: Partial<AppConfig>) {
+    let config = await getAppConfig();
+    const updated = Object.assign(config, toUpdate);
+    await setAppConfig(updated);
+}
+
+export async function getAppSession(): Promise<AppSession> {
+    return (await chrome.storage.session.get("appSession"))?.appSession;
+}
+
 export async function setAppSession(session: AppSession) {
     await chrome.storage.session.set({ appSession: session });
 }

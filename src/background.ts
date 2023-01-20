@@ -37,6 +37,10 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
     }
 });
 
-chrome.tabs.onRemoved.addListener((tabId, removeInfo) => {
-
+// Set state as off if the primary tab is killed
+chrome.tabs.onRemoved.addListener(async (tabId, removeInfo) => {
+    const { scheduleTab } = await Storage.getAppSession();
+    if (tabId === scheduleTab.id) {
+        await Storage.updateAppConfig({ enabled: false });
+    }
 });
