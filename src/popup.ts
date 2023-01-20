@@ -15,6 +15,11 @@ async function setDefaultConfig() {
     await chrome.storage.local.set({ config: DEFAULT_CONFIG });
 }
 
+function getCheckboxes(): NodeListOf<HTMLInputElement> {
+    return document.querySelectorAll<HTMLInputElement>
+        ("form[id=appConfig] > input[type=checkbox]");
+}
+
 function updateCheckbox(elementId: string, value: boolean) {
     const cb = document.getElementById(elementId) as HTMLInputElement
     cb.checked = value
@@ -41,7 +46,7 @@ async function onLoad() {
 
 async function onFormChange() {
     let config = {} as AppConfig;
-    const checkboxes = document.querySelectorAll<HTMLInputElement>("form[id=appConfig] > input[type=checkbox]");
+    const checkboxes = getCheckboxes();
     checkboxes.forEach((e) => {
         config[e.id as keyof AppConfig] = e.checked;
     });
