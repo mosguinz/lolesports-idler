@@ -159,7 +159,8 @@ export interface RewardStatus {
      * drops include:
      *
      *  - `off_region_not_configured`: if the region does not offer drop or
-     *  if the broadcast is between games.
+     *     if the logged in account is not eligible for drops due to region
+     *     restriction.
      *  - `off_vod_stream`: this is a VOD and is not eligible for drops.
      *  - `unknown`: if the user is not logged in.
      *
