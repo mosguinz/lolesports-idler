@@ -8,7 +8,8 @@ module.exports = {
     entry: {
         background: path.join(srcDir, "background.ts"),
         content_script: path.join(srcDir, "content_script.ts"),
-        scraper: path.join(srcDir, "scraper.ts")
+        scraper: path.join(srcDir, "scraper.ts"),
+        popup: path.join(srcDir, "popup.ts")
     },
     output: {
         path: path.join(__dirname, "../dist"),
