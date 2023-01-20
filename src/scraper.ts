@@ -15,17 +15,21 @@ function _getLeagues(): League[] {
 }
 
 export async function getEvents(tab: chrome.tabs.Tab) {
-    return await chrome.scripting.executeScript({
+    const res = await chrome.scripting.executeScript({
         target: { tabId: tab.id! },
         func: _getEvents,
         world: "MAIN"
     });
+    // there should be exactly one `InjectionResult`
+    return res.length ? res[0].result : [];
 }
 
 export async function getLeagues(tab: chrome.tabs.Tab) {
-    return await chrome.scripting.executeScript({
+    const res = await chrome.scripting.executeScript({
         target: { tabId: tab.id! },
         func: _getLeagues,
         world: "MAIN"
     });
+    // there should be exactly one `InjectionResult`
+    return res.length ? res[0].result : [];
 }
