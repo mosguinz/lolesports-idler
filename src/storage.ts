@@ -2,7 +2,7 @@
  * Wrapper for accessing storage
  */
 
-import { AppConfig } from "./types";
+import { AppConfig, AppSession } from "./types";
 
 const DEFAULT_CONFIG: AppConfig = {
     enabled: false,
@@ -25,4 +25,8 @@ export async function getAppConfig() {
 export async function setAppConfig(config: AppConfig) {
     console.log("Saving config:", config);
     await chrome.storage.local.set({ config: config });
+}
+
+export async function setAppSession(session: AppSession) {
+    await chrome.storage.session.set({ appSession: session });
 }

@@ -1,4 +1,6 @@
 import { AppConfig, AppSession } from "./types";
+import * as Scraper from "./scraper";
+import * as Storage from "./storage";
 
 async function openSchedulePage() {
     const tab = await chrome.tabs.create({
@@ -8,7 +10,14 @@ async function openSchedulePage() {
         scheduleTab: tab,
         spawnedTabs: []
     }
-    await chrome.storage.session.set({ "appSession": session });
+    await Storage.setAppSession(session);
+    return tab
+}
+
+async function mainEventLoop() {
+    const tab = await openSchedulePage();
+    const res = await Scraper.getEvents(tab);
+    res.forEach(a => { console.log(a); })
 }
 
 // This listener's only purpose is to start the idler.
@@ -24,6 +33,10 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
         return;
     }
     if (newValue.enabled) {
-        await openSchedulePage();
+        await mainEventLoop();
     }
+});
+
+chrome.tabs.onRemoved.addListener((tabId, removeInfo) => {
+
 });
