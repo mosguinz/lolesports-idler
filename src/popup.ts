@@ -9,7 +9,7 @@ const DEFAULT_CONFIG: AppConfig = {
 
 async function loadConfig() {
     let config: AppConfig = (await chrome.storage.local.get('config'))?.config;
-    if (!Object.keys(config).length) {
+    if (!config || !Object.keys(config).length) {
         console.log("Config not found, using default values");
         await setDefaultConfig();
         config = DEFAULT_CONFIG;
