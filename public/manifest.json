@@ -5,17 +5,6 @@
     "action": {
         "default_popup": "popup/popup.html"
     },
-    "content_scripts": [
-        {
-            "matches": [
-                "*://lolesports.com/schedule*"
-            ],
-            "js": [
-                "content_script.js"
-            ],
-            "run_at": "document_idle"
-        }
-    ],
     "web_accessible_resources": [
         {
             "resources": [
