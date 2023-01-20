@@ -1,4 +1,4 @@
-import { AppConfig, AppSession } from "./types";
+import { AppConfig, AppSession, Event } from "./types";
 import * as Scraper from "./scraper";
 import * as Storage from "./storage";
 
@@ -14,10 +14,41 @@ async function openSchedulePage() {
     return tab
 }
 
+/**
+ * Schema:
+ * https://lolesports.com/live/{League.slug}/{Stream.parameter}
+ */
+function getStreamUrl(event: Event, preferTwitch: boolean) {
+    const streamUrl = `https://lolesports.com/live/${event.league.slug}/`;
+    const stream = event.streams?.find(s => s.provider === "twitch");
+    if (preferTwitch && stream) {
+        return streamUrl + stream.parameter;
+    }
+    return streamUrl;
+}
+
 async function mainEventLoop() {
     const tab = await openSchedulePage();
-    const res = await Scraper.getEvents(tab);
-    res.forEach(a => { console.log(a); })
+    const events = await Scraper.getEvents(tab);
+    const config = await Storage.getAppConfig();
+
+    if (!events.length) {
+        console.error("No events found! Did the scraper break?");
+        return;
+    }
+    const liveEvents = events.filter(e => e.state === "inProgress");
+    if (!liveEvents.length) {
+        console.log("No live events found");
+        return;
+    }
+
+    liveEvents.forEach(async (event) => {
+        const tab = await chrome.tabs.create({
+            url: getStreamUrl(event, config.preferTwitch)
+        });
+        console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
+        // todo: save tab info
+    })
 }
 
 // This listener's only purpose is to start the idler.
