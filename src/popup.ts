@@ -1,31 +1,5 @@
 import { AppConfig } from "./types";
-
-const DEFAULT_CONFIG: AppConfig = {
-    enabled: false,
-    preferTwitch: true,
-    muteTabs: true,
-    autoCloseTabs: true,
-}
-
-async function loadConfig() {
-    let config: AppConfig = (await chrome.storage.local.get('config'))?.config;
-    if (!config || !Object.keys(config).length) {
-        console.log("Config not found, using default values");
-        await setDefaultConfig();
-        config = DEFAULT_CONFIG;
-    }
-    console.log("Config: ", config);
-    return config;
-}
-
-async function writeConfig(config: AppConfig) {
-    console.log("Saving config:", config);
-    await chrome.storage.local.set({ config: config });
-}
-
-async function setDefaultConfig() {
-    await writeConfig(DEFAULT_CONFIG);
-}
+import * as Storage from "./storage";
 
 /**
  * Get the checkbox elements from the popup page.
@@ -38,7 +12,7 @@ function getCheckboxes(): NodeListOf<HTMLInputElement> {
 }
 
 async function onLoad() {
-    const config = await loadConfig();
+    const config = await Storage.getAppConfig();
     const checkboxes = getCheckboxes();
     checkboxes.forEach((cb) => {
         cb.checked = config[cb.id as keyof AppConfig];
@@ -56,7 +30,7 @@ async function onFormChange() {
     checkboxes.forEach((e) => {
         config[e.id as keyof AppConfig] = e.checked;
     });
-    await writeConfig(config);
+    await Storage.setAppConfig(config);
 }
 
 
