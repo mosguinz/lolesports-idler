@@ -27,6 +27,11 @@ async function setDefaultConfig() {
     await writeConfig(DEFAULT_CONFIG);
 }
 
+/**
+ * Get the checkbox elements from the popup page.
+ * The `id` attribute of the checkboxes are guaranteed to
+ * be a key of {@interface AppConfig}.
+ */
 function getCheckboxes(): NodeListOf<HTMLInputElement> {
     return document.querySelectorAll<HTMLInputElement>
         ("form[id=appConfig] > input[type=checkbox]");
