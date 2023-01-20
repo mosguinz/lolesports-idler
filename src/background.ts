@@ -11,10 +11,6 @@ async function openSchedulePage() {
     await chrome.storage.session.set({ "appSession": session });
 }
 
-chrome.action.onClicked.addListener((tab) => {
-    console.log("test");
-});
-
 // This listener's only purpose is to start the idler.
 chrome.storage.onChanged.addListener(async (changes, areaName) => {
     const configChanges = changes?.config;
