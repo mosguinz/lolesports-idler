@@ -8,7 +8,14 @@ const DEFAULT_CONFIG: AppConfig = {
 }
 
 async function loadConfig() {
-    return await chrome.storage.local.get('config') as AppConfig;
+    let { config } = await chrome.storage.local.get('config');
+    if (!Object.keys(config).length) {
+        console.log("Config not found, using default values");
+        await setDefaultConfig();
+        config = DEFAULT_CONFIG;
+    }
+    console.log("Config: ", config);
+    return config;
 }
 
 async function setDefaultConfig() {
@@ -26,17 +33,11 @@ function updateCheckbox(elementId: string, value: boolean) {
 }
 
 async function onLoad() {
-    let config = await loadConfig();
-    if (!Object.keys(config).length) {
-        await setDefaultConfig();
-        config = DEFAULT_CONFIG;
-    }
-    console.log(config);
-
-    updateCheckbox("enabled", config.enabled);
-    updateCheckbox("preferTwitch", config.preferTwitch);
-    updateCheckbox("muteTabs", config.muteTabs);
-    updateCheckbox("autoCloseTabs", config.autoCloseTabs);
+    const config = await loadConfig();
+    const checkboxes = getCheckboxes();
+    checkboxes.forEach((cb) => {
+        cb.checked = config[cb.id as keyof AppConfig];
+    });
 
     const appConfig = document.getElementById("appConfig") as HTMLFormElement;
     appConfig.addEventListener("change", async () => {
