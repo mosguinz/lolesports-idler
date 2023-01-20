@@ -4,14 +4,14 @@ function _getEvents(): Event[] {
     const element: any = document.querySelector("div.Event");
     const events: Event[] = element?._component?.props?.schedule?.events;
     console.log(events);
-    return events
+    return events || _getEvents(); // TODO: find a better way
 }
 
 function _getLeagues(): League[] {
     const element: any = document.querySelector("div.EventFilter");
     const leagues: League[] = element?._component?.props?.leagues;
     console.log(leagues);
-    return leagues;
+    return leagues || _getLeagues(); // TODO: find a better way
 }
 
 export async function getEvents(tab: chrome.tabs.Tab) {
