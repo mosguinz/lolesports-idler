@@ -178,6 +178,6 @@ export interface AppConfig {
 }
 
 export interface AppSession {
-    scheduleTab: any
-    openedTabs: any[]
+    scheduleTab: chrome.tabs.Tab
+    spawnedTabs: chrome.tabs.Tab[]
 }
