@@ -40,3 +40,14 @@ export async function getAppSession(): Promise<AppSession> {
 export async function setAppSession(session: AppSession) {
     await chrome.storage.session.set({ appSession: session });
 }
+
+export async function updateAppSession(toUpdate: Partial<AppSession>) {
+    let session = await getAppSession();
+    const updated = Object.assign(session, toUpdate);
+    await setAppSession(updated);
+}
+
+export async function pushSpawnedTabs(tabs: chrome.tabs.Tab[]) {
+    const session = await getAppSession();
+    await updateAppSession({ spawnedTabs: session.spawnedTabs.concat(tabs) });
+}

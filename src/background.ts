@@ -42,13 +42,15 @@ async function mainEventLoop() {
         return;
     }
 
+    let spawnedTabs: chrome.tabs.Tab[] = [];
     liveEvents.forEach(async (event) => {
         const tab = await chrome.tabs.create({
             url: getStreamUrl(event, config.preferTwitch)
         });
         console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
-        // todo: save tab info
-    })
+        spawnedTabs.push(tab);
+    });
+    await Storage.pushSpawnedTabs(spawnedTabs);
 }
 
 // This listener's only purpose is to start the idler.
