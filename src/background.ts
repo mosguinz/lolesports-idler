@@ -1,4 +1,4 @@
-import { AppConfig, AppSession, Event } from "./types";
+import { AppConfig, AppSession, EsportEvent } from "./types";
 import * as Scraper from "./scraper";
 import * as Storage from "./storage";
 
@@ -18,7 +18,7 @@ async function openSchedulePage() {
  * Schema:
  * https://lolesports.com/live/{League.slug}/{Stream.parameter}
  */
-function getStreamUrl(event: Event, preferTwitch: boolean) {
+function getStreamUrl(event: EsportEvent, preferTwitch: boolean) {
     const streamUrl = `https://lolesports.com/live/${event.league.slug}/`;
     const stream = event.streams?.find(s => s.provider === "twitch");
     if (preferTwitch && stream) {

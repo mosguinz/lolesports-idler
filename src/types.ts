@@ -1,4 +1,4 @@
-export interface Event {
+export interface EsportEvent {
     /** Scheduled start time of the event. */
     startTime: Date;
     state: State;

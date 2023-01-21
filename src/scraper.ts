@@ -1,8 +1,8 @@
-import { Event, League } from './types';
+import { EsportEvent, League } from './types';
 
-function _getEvents(): Event[] {
+function _getEvents(): EsportEvent[] {
     const element: any = document.querySelector("div.Event");
-    const events: Event[] = element?._component?.props?.schedule?.events;
+    const events: EsportEvent[] = element?._component?.props?.schedule?.events;
     console.log(events);
     return events || _getEvents(); // TODO: find a better way
 }
