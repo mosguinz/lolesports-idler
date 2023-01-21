@@ -2,11 +2,18 @@ export interface Event {
     /** Scheduled start time of the event. */
     startTime: Date;
     state: State;
+    /**
+     * `match` if there is an ongoing game. `show` if the match has yet to
+     *  start, usually preshow content or countdown.
+     */
     type: EventType;
-    /** The "block" that the event belonged to. Usually "Week X" or "Round X". */
+    /** The "block" that the event belongs to. Usually "Week X" or "Round X". */
     blockName?: string;
+    /** The {@interface League} this event belongs to. */
     league: League;
+    /** Present only if `Event.type` has an `EventType` of `match`. */
     match?: Match;
+    /** Appears to be only present for live (`inProgress`) events. */
     id?: string;
     tournament?: Tournament;
     streams?: Stream[];
@@ -25,8 +32,9 @@ export interface League {
     name: string;
     /**
      * The URL slug for the league.
-     * The slug, among other things, is used as a query parameter for filtering
-     * schedules.
+     * The slug, among other things, are used:
+     *  - as a query parameter for filtering schedules,
+     *  - as the path for livestream, `/live/`.
      */
     slug: string;
     id?: string;
@@ -38,7 +46,10 @@ export interface League {
      */
     priority?: number;
     displayPriority?: DisplayPriority;
-    /** The region that the league operates in. Usually in ALL-CAPS. */
+    /**
+     * The region that the league operates in. Usually in ALL-CAPS.
+     * For example, `NORTH AMERICA` or `KOREA`.
+     */
     region?: string;
 }
 
