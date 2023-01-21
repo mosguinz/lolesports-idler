@@ -51,3 +51,9 @@ export async function pushSpawnedTabs(tabs: chrome.tabs.Tab[]) {
     const session = await getAppSession();
     await updateAppSession({ spawnedTabs: session.spawnedTabs.concat(tabs) });
 }
+
+export async function removeSpawnedTabs(tabIds: number[]) {
+    const { spawnedTabs } = await getAppSession();
+    const remaining = spawnedTabs.filter(tab => !tabIds.includes(tab.id!));
+    await updateAppSession({ spawnedTabs: remaining });
+}

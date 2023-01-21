@@ -42,6 +42,7 @@ async function mainEventLoop() {
         return;
     }
 
+    // Spawn and save tabs.
     let spawnedTabs: chrome.tabs.Tab[] = [];
     liveEvents.forEach(async (event) => {
         const tab = await chrome.tabs.create({
@@ -49,8 +50,29 @@ async function mainEventLoop() {
         });
         console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
         spawnedTabs.push(tab);
+
+        if (config.muteTabs) {
+            await chrome.tabs.update(tab.id!, { muted: true });
+        }
     });
     await Storage.pushSpawnedTabs(spawnedTabs);
+
+    if (!config.autoCloseTabs) {
+        return;
+    }
+
+    // Check if tabs need to be closed.
+    const session = await Storage.getAppSession();
+    let toClose: number[] = [];
+    session.spawnedTabs.forEach(async (savedTab) => {
+        const tab = await chrome.tabs.get(savedTab.id!);
+        if (!tab.url?.includes("lolesports.com/live")) {
+            toClose.push(tab.id!);
+        }
+    });
+    await chrome.tabs.remove(toClose);
+    await Storage.removeSpawnedTabs(toClose);
+
 }
 
 // This listener's only purpose is to start the idler.
