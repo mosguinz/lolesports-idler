@@ -45,9 +45,14 @@ async function mainEventLoop() {
     // Spawn and save tabs.
     let spawnedTabs: chrome.tabs.Tab[] = [];
     liveEvents.forEach(async (event) => {
-        const tab = await chrome.tabs.create({
-            url: getStreamUrl(event, config.preferTwitch)
-        });
+        const targetUrl = getStreamUrl(event, config.preferTwitch);
+        const session = await Storage.getAppSession();
+
+        if (session.spawnedTabs.find(tab => tab.url === targetUrl)) {
+            return;
+        }
+
+        const tab = await chrome.tabs.create({ url: targetUrl });
         console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
         spawnedTabs.push(tab);
 
