@@ -51,9 +51,10 @@ async function openStreams(events: EsportEvent[], config: AppConfig) {
         console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
         spawnedTabs.push(tab);
 
-        if (config.muteTabs) {
-            await chrome.tabs.update(tab.id!, { muted: true });
-        }
+        await chrome.tabs.update(tab.id!, {
+            autoDiscardable: false,
+            muted: config.muteTabs
+        });
     }
     await Storage.pushSpawnedTabs(spawnedTabs);
 }
