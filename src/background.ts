@@ -44,12 +44,13 @@ async function mainEventLoop() {
 
     // Spawn and save tabs.
     let spawnedTabs: chrome.tabs.Tab[] = [];
-    liveEvents.forEach(async (event) => {
+    for (const event of liveEvents) {
         const targetUrl = getStreamUrl(event, config.preferTwitch);
         const session = await Storage.getAppSession();
 
-        if (session.spawnedTabs.find(tab => tab.url === targetUrl)) {
-            return;
+        if (session.spawnedTabs.find(tab => tab.url || tab.pendingUrl === targetUrl)) {
+            console.log(targetUrl, "is already open")
+            continue;
         }
 
         const tab = await chrome.tabs.create({ url: targetUrl });
@@ -59,7 +60,7 @@ async function mainEventLoop() {
         if (config.muteTabs) {
             await chrome.tabs.update(tab.id!, { muted: true });
         }
-    });
+    }
     await Storage.pushSpawnedTabs(spawnedTabs);
 
     if (!config.autoCloseTabs) {
@@ -69,12 +70,16 @@ async function mainEventLoop() {
     // Check if tabs need to be closed.
     const session = await Storage.getAppSession();
     let toClose: number[] = [];
-    session.spawnedTabs.forEach(async (savedTab) => {
+    for (const savedTab of session.spawnedTabs) {
         const tab = await chrome.tabs.get(savedTab.id!);
-        if (!tab.url?.includes("lolesports.com/live")) {
-            toClose.push(tab.id!);
+        console.log("tabcheck", tab);
+
+        if ((tab.url || tab.pendingUrl)
+            !== (savedTab.url || savedTab.pendingUrl)) {
+            toClose.push(savedTab.id!);
         }
-    });
+    }
+
     await chrome.tabs.remove(toClose);
     await Storage.removeSpawnedTabs(toClose);
 
@@ -104,4 +109,12 @@ chrome.tabs.onRemoved.addListener(async (tabId, removeInfo) => {
     if (tabId === scheduleTab.id) {
         await Storage.updateAppConfig({ enabled: false });
     }
+});
+
+chrome.alarms.create({
+    delayInMinutes: 1
+});
+
+chrome.alarms.onAlarm.addListener(async () => {
+    mainEventLoop();
 });
