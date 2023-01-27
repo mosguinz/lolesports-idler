@@ -99,8 +99,19 @@ async function mainEventLoop() {
     await openStreams(liveEvents, config);
 
     if (config.autoCloseTabs) {
-        closeStaleTabs();
+        await closeStaleTabs();
     }
+}
+
+async function startIdler() {
+    await openSchedulePage();
+    await mainEventLoop();
+    chrome.alarms.create({ periodInMinutes: 1 });
+}
+
+async function stopIdler() {
+    await Storage.updateAppConfig({ enabled: false });
+    chrome.alarms.clearAll();
 }
 
 // This listener's only purpose is to start the idler.
@@ -115,24 +126,18 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
     if (newValue?.enabled === oldValue?.enabled) {
         return;
     }
-    if (newValue.enabled) {
-        await openSchedulePage();
-        await mainEventLoop();
-    }
+
+    newValue.enabled ? await startIdler() : await stopIdler();
 });
 
 // Set state as off if the primary tab is killed
 chrome.tabs.onRemoved.addListener(async (tabId, removeInfo) => {
     const { scheduleTab } = await Storage.getAppSession();
     if (tabId === scheduleTab.id) {
-        await Storage.updateAppConfig({ enabled: false });
+        await stopIdler();
     }
 });
 
-chrome.alarms.create({
-    delayInMinutes: 1
-});
-
 chrome.alarms.onAlarm.addListener(async () => {
-    mainEventLoop();
+    await mainEventLoop();
 });
