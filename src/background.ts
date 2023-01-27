@@ -28,8 +28,8 @@ function getStreamUrl(event: EsportEvent, preferTwitch: boolean) {
 }
 
 async function mainEventLoop() {
-    const tab = await openSchedulePage();
-    const events = await Scraper.getEvents(tab);
+    const { scheduleTab } = await Storage.getAppSession();
+    const events = await Scraper.getEvents(scheduleTab);
     const config = await Storage.getAppConfig();
 
     if (!events.length) {
@@ -93,6 +93,7 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
         return;
     }
     if (newValue.enabled) {
+        await openSchedulePage();
         await mainEventLoop();
     }
 });
