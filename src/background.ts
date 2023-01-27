@@ -2,6 +2,12 @@ import { AppConfig, AppSession, EsportEvent } from "./types";
 import * as Scraper from "./scraper";
 import * as Storage from "./storage";
 
+
+/**
+ * Open the LoL Esports schedule page.
+ * The session's `scheduleTab` will be set and `spawnedTabs`
+ * are reset.
+ */
 async function openSchedulePage() {
     const tab = await chrome.tabs.create({
         url: "https://lolesports.com/schedule"
@@ -27,6 +33,53 @@ function getStreamUrl(event: EsportEvent, preferTwitch: boolean) {
     return streamUrl;
 }
 
+
+/**
+ * Open the streams using the provided config.
+ */
+async function openStreams(events: EsportEvent[], config: AppConfig) {
+    let spawnedTabs: chrome.tabs.Tab[] = [];
+    for (const event of events) {
+        const targetUrl = getStreamUrl(event, config.preferTwitch);
+        const session = await Storage.getAppSession();
+
+        if (session.spawnedTabs.find(tab => tab.url || tab.pendingUrl === targetUrl)) {
+            continue;
+        }
+
+        const tab = await chrome.tabs.create({ url: targetUrl });
+        console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
+        spawnedTabs.push(tab);
+
+        if (config.muteTabs) {
+            await chrome.tabs.update(tab.id!, { muted: true });
+        }
+    }
+    await Storage.pushSpawnedTabs(spawnedTabs);
+}
+
+
+/**
+ * Close tabs that have navigated away from the original target.
+ * Usually, streams that have ended will be redirected to the VODs page.
+ */
+async function closeStaleTabs() {
+    const session = await Storage.getAppSession();
+    let toClose: number[] = [];
+    for (const savedTab of session.spawnedTabs) {
+        const tab = await chrome.tabs.get(savedTab.id!);
+        console.log("tabcheck", tab);
+
+        if ((tab.url || tab.pendingUrl)
+            !== (savedTab.url || savedTab.pendingUrl)) {
+            toClose.push(savedTab.id!);
+        }
+    }
+
+    await chrome.tabs.remove(toClose);
+    await Storage.removeSpawnedTabs(toClose);
+}
+
 async function mainEventLoop() {
     const { scheduleTab } = await Storage.getAppSession();
     const events = await Scraper.getEvents(scheduleTab);
@@ -42,47 +95,11 @@ async function mainEventLoop() {
         return;
     }
 
-    // Spawn and save tabs.
-    let spawnedTabs: chrome.tabs.Tab[] = [];
-    for (const event of liveEvents) {
-        const targetUrl = getStreamUrl(event, config.preferTwitch);
-        const session = await Storage.getAppSession();
+    await openStreams(liveEvents, config);
 
-        if (session.spawnedTabs.find(tab => tab.url || tab.pendingUrl === targetUrl)) {
-            console.log(targetUrl, "is already open")
-            continue;
-        }
-
-        const tab = await chrome.tabs.create({ url: targetUrl });
-        console.log(`Opening ${event.league.name} event. preferTwitch=${config.preferTwitch}`);
-        spawnedTabs.push(tab);
-
-        if (config.muteTabs) {
-            await chrome.tabs.update(tab.id!, { muted: true });
-        }
+    if (config.autoCloseTabs) {
+        closeStaleTabs();
     }
-    await Storage.pushSpawnedTabs(spawnedTabs);
-
-    if (!config.autoCloseTabs) {
-        return;
-    }
-
-    // Check if tabs need to be closed.
-    const session = await Storage.getAppSession();
-    let toClose: number[] = [];
-    for (const savedTab of session.spawnedTabs) {
-        const tab = await chrome.tabs.get(savedTab.id!);
-        console.log("tabcheck", tab);
-
-        if ((tab.url || tab.pendingUrl)
-            !== (savedTab.url || savedTab.pendingUrl)) {
-            toClose.push(savedTab.id!);
-        }
-    }
-
-    await chrome.tabs.remove(toClose);
-    await Storage.removeSpawnedTabs(toClose);
-
 }
 
 // This listener's only purpose is to start the idler.
