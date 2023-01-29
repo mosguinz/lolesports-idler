@@ -140,7 +140,7 @@ export interface Pages {
 }
 
 
-export type HeartBeater = "loggedout" | "heartbeating";
+export type HeartBeater = "loggedout" | "heartbeating" | "stopped";
 
 /**
  * This comes from two keys of the `div.RewardsStatusInformer`:
@@ -165,13 +165,15 @@ export interface RewardStatus {
     mission: string;
 
     /**
-     * Earning drops if and only if this key is present and has the value of
-     * `on`. Other values that may display a checkmark but aren't earning
-     * drops include:
-     *
-     *  - `off_region_not_configured`: if the region does not offer drop or
-     *     if the logged in account is not eligible for drops due to region
-     *     restriction.
+     * Earning drops if and only if this key is present. The value of this
+     * key is not reliable for determining the drop status. Some of the values
+     * include:
+     *  - `on`: drops are enabled.
+     *  - `off_region_not_configured`:
+     *    - if the region has not configured drops, or
+     *    - if the logged in account is not eligible for drops due to region
+     *      restriction.
+     *    - Note that drops may still work despite the value.
      *  - `off_vod_stream`: this is a VOD and is not eligible for drops.
      *  - `unknown`: if the user is not logged in.
      *
