@@ -12,6 +12,9 @@ async function openSchedulePage() {
     const tab = await chrome.tabs.create({
         url: "https://lolesports.com/schedule"
     });
+    await chrome.tabs.update(tab.id!, {
+        autoDiscardable: false
+    });
     const session: AppSession = {
         scheduleTab: tab,
         spawnedTabs: []
