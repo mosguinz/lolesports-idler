@@ -134,11 +134,14 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
 });
 
 // Set state as off if the primary tab is killed
+// and remove tabs that are closed by other means.
 chrome.tabs.onRemoved.addListener(async (tabId, removeInfo) => {
-    const { scheduleTab } = await Storage.getAppSession();
+    const { scheduleTab, spawnedTabs } = await Storage.getAppSession();
     if (tabId === scheduleTab.id) {
         await stopIdler();
+        return;
     }
+    await Storage.removeSpawnedTabs([tabId]);
 });
 
 chrome.alarms.onAlarm.addListener(async () => {
