@@ -108,7 +108,12 @@ async function mainEventLoop() {
 
 async function startIdler() {
     await openSchedulePage();
-    await mainEventLoop();
+    // TODO: fix this shit later -- need to properly wait for page to load
+    try {
+        await mainEventLoop();
+    } catch (e) {
+        console.error("Something went wrong, trying agagin...", e)
+    }
     chrome.alarms.create({ periodInMinutes: 1 });
 }
 
